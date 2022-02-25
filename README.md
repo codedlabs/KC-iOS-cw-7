@@ -1,44 +1,111 @@
-<div dir="rtl">
 
 
-#  التمرين السادس
- 
-قم بلصق مجلد التمرين الأول (Sign in ) هنا
- 
-### خطوات 
+# <p dir="rtl">
+فيديوهات الدرس</p>
 
-1. افتح رابط الواجب من [هنا](https://github.com/kuwaitcodes/ios-cw-5)
-2. قم بعمل Fork للمرشروع
-3.قم بفتح الواجب عن طريق Open in GitHub Desktop  
-4.  قم بإنشاء مشروع جديد بالـ Xcode
-5. قم بتطبيق الـ **XO** 
-6. الفيديوهات  موجوده [هنا](https://app.code.kw/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%8A%D9%81%D9%88%D9%86-%D9%85%D8%B9-%D8%B3%D9%88%D9%8A%D9%81%D8%AA-Swift-KFAS/ios-%D8%AA%D9%85%D8%A7%D8%B1%D9%8A%D9%86/ios-x-o/%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%88%D8%A7%D8%AC%D9%87%D8%A9-x-o) 
 
-### بونص!!
-1. قم بوضع صورة **Image**  
-2. قم بجعل تصميم اللعبه اجمل 🤩
 
-### Alert View
-<div dir="ltr">
 
-```Swift
-func okAlert(title: String, message: String)
-{
-    let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-    let okAction = UIAlertAction(title: "Ok", style: .cancel)
-    alertController.addAction(okAction)
-    present(alertController, animated: true)
-}
+* 
+[OnTapGesture](https://www.youtube.com/watch?v=qgtG5zbufy4) 
+
+---
+
+
+# <p dir="rtl">
+شرح الدرس </p>
+
+
+
+# <p dir="rtl">
+طريقة تغيير متغير variable باستخدام OnTapGesture</p>
+
+
+
+
+* نستخدم متغير من نوع  State  لمعرفة إذا تغيرت قيمة المتغير مثل المثال التالي
+
+    ```
+@State private var color = "green"
 ```
-يمكنك فقط استدعاء الدالة من خلال كتابة: 
 
-```Swift
-okAlert(title: "X Wins!", message: "مبرووووك X 😍")
+
+* نقوم بإضافة جملة في Text لرؤيتها
+
+    ```
+VStack {
+         Text("My favourite color is " , color)
+             .padding() }
 ```
-</div>
-
-آخر موعد لرفع الكود\
-26/9/2020
 
 
-</div>
+
+
+
+* 
+نقوم بإنشاء Text جديد واضافة OnTapGesture لتغير اللون الاخضر الى اللون الازرق 
+
+```
+Text("Blue")
+     .padding()
+     .foregroundColor(.blue)
+     .onTapGesture {
+          color = "Blue"
+     }
+ 
+```
+
+
+
+---
+
+<p dir="rtl">
+تمرين (this should be in github so just attach a github link)</p>
+
+
+<p dir="rtl">
+في هذا التمرين سنقوم ببناء تطبيق الهاتف </p>
+
+
+
+
+1.  قم بإنشاء مشروع جديد باسم Best Track
+2. قم بإدراج 4 مسارات في الشاشة  على الشكل التالي
+
+<p dir="rtl">
+ 
+
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
+</p>
+
+
+
+
+3. 
+عند الضغط على اي مسار يقوم بإظهارها ايقونه المسار  مثال: 
+<p dir="rtl">
+
+
+<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/image2.gif" width="" alt="alt_text" title="image_tooltip">
+</p>
+
+
+<p dir="rtl">
+<strong>بونص: قم بتغير خلفية النصوص إلى الاوان التالية</strong></p>
+
+
+<p dir="rtl">
+
+
+<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
+</p>
+

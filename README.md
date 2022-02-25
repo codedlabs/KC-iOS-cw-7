@@ -75,7 +75,7 @@ Text("Blue")
 
 
 
-<img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
+<img src="CW-Example.png" width="200" alt="alt_text" title="image_tooltip">
 </p>
 
 
@@ -98,6 +98,6 @@ Text("Blue")
 
 
 
-<img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
+<img src="/Bonus.png" width="200" alt="alt_text" title="image_tooltip">
 </p>
 

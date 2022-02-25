@@ -88,7 +88,7 @@ Text("Blue")
 
 
 
-<img src="images/image2.gif" width="" alt="alt_text" title="image_tooltip">
+<img src="/CW-Example.gif" width="200" alt="alt_text" title="image_tooltip">
 </p>
 
 

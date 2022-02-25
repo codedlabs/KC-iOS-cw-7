@@ -1,13 +1,13 @@
+# OnTapGesture
 
-
-# <p dir="rtl">
+<p dir="rtl">
 فيديوهات الدرس</p>
 
 
 
+* رابط الفيديو [OnTapGesture](https://www.youtube.com/watch?v=qgtG5zbufy4) 
 
-* 
-[OnTapGesture](https://www.youtube.com/watch?v=qgtG5zbufy4) 
+
 
 ---
 
@@ -25,14 +25,14 @@
 
 * نستخدم متغير من نوع  State  لمعرفة إذا تغيرت قيمة المتغير مثل المثال التالي
 
-    ```
+```
 @State private var color = "green"
 ```
 
 
 * نقوم بإضافة جملة في Text لرؤيتها
 
-    ```
+```
 VStack {
          Text("My favourite color is " , color)
              .padding() }
@@ -42,8 +42,8 @@ VStack {
 
 
 
-* 
-نقوم بإنشاء Text جديد واضافة OnTapGesture لتغير اللون الاخضر الى اللون الازرق 
+ 
+* نقوم بإنشاء Text جديد واضافة OnTapGesture لتغير اللون الاخضر الى اللون الازرق 
 
 ```
 Text("Blue")
@@ -60,8 +60,7 @@ Text("Blue")
 ---
 
 <p dir="rtl">
-تمرين (this should be in github so just attach a github link)</p>
-
+تمرين
 
 <p dir="rtl">
 في هذا التمرين سنقوم ببناء تطبيق الهاتف </p>
@@ -74,20 +73,21 @@ Text("Blue")
 
 
 
-
+<p dir="rtl">
 <img src="CW-Example.png" width="200" alt="alt_text" title="image_tooltip">
 </p>
 
 
 
-
-3. 
-عند الضغط على اي مسار يقوم بإظهارها ايقونه المسار  مثال: 
 <p dir="rtl">
+    
+3. عند الضغط على اي مسار يقوم بإظهارها ايقونه المسار  مثال: 
 
 
 
 
+
+<p dir="rtl">
 <img src="/CW-Example.gif" width="200" alt="alt_text" title="image_tooltip">
 </p>
 
@@ -97,7 +97,7 @@ Text("Blue")
 
 
 
-
+<p dir="rtl">
 <img src="/Bonus.png" width="200" alt="alt_text" title="image_tooltip">
 </p>
 

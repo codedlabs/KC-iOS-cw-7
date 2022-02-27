@@ -26,7 +26,7 @@
 * نستخدم متغير من نوع  State  لمعرفة إذا تغيرت قيمة المتغير مثل المثال التالي
 
 ```
-@State private var color = "green"
+@State var color = "green"
 ```
 
 

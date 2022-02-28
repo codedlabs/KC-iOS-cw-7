@@ -37,8 +37,12 @@
 2. قم بعمل صفحه Sign in حيث يوجد TextField يقوم المستخدم بادخال
 
 <p dir="rtl">
-الاسم المستعار </p>
+الاسم المستعار
+</p>
+<p dir="rtl">
+
 3. اطبع الاسم المستعار في الاسفل
+</p>
 
 
 <img width="346" alt="Screen Shot 2022-03-01 at 1 09 52 AM" src="https://user-images.githubusercontent.com/56195895/156066940-612bb3bb-06f5-4cfe-9576-a8dcb1ed234e.png">

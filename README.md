@@ -28,21 +28,20 @@
 ---
 
 <p dir="rtl">
-تمرين🧑🏽‍💻🧑🏽‍💻</p>
 
 
 
 <p dir="rtl">
-1. قم بانشاء مشروع جديد 
-2. قم بعمل صفحه Sign in حيث يوجد TextField يقوم المستخدم بادخال
-
-<p dir="rtl">
-الاسم المستعار
+تمرين🧑🏽‍💻🧑🏽‍💻 <a href="https://github.com/kuwaitcodes/ios-cw-6">Github
+Link</a></p>
 </p>
-<p dir="rtl">
+<ol>
+<li>قم بفتح ملف Xcode
+<li>قم بالتعديلات التالية:
+<li>عرف متغير قابل للتغيير لتخزين username
+<li>قم باضافة textField يقوم بحفظ ال username
+<li>قم باظهار الusername بجانب welcome back
+</l>
 
-3. اطبع الاسم المستعار في الاسفل
-</p>
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/56195895/157056100-75d73765-d827-445b-861b-eff6d55be514.gif)
 
-
-<img width="346" alt="Screen Shot 2022-03-01 at 1 09 52 AM" src="https://user-images.githubusercontent.com/56195895/156066940-612bb3bb-06f5-4cfe-9576-a8dcb1ed234e.png">

@@ -1,7 +1,7 @@
   <h1 align="right">التمرين 1 </h1>
 
 <p dir="rtl">
-<img src="/cw1.png" width="200" alt="alt_text" title="image_tooltip">
+<img src="/cw1.gif" width="200" alt="alt_text" title="image_tooltip">
 </p>
 
 <p dir="rtl">

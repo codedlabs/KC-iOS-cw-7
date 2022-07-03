@@ -17,7 +17,7 @@
 4. قم بعمل خصائص لهذا struct بهذه الاسماء كمتغيرات :
 
 <p dir="rtl">
- fullName - area - numberOfDoses</p>
+ fullName - Year - Age</p>
 
 
 <p dir="rtl">
